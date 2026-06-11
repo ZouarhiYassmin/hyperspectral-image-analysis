@@ -1,5 +1,15 @@
 # hyperspectral-image-analysis
 
+Features
+
+
+Convolutional Autoencoder (CNN-AE) for lossy image compression
+Reconstruction quality metrics: PSNR, SSIM
+Spectral Angle Mapper (SAM) for comparing spectral signatures
+Pearson correlation across spectral bands
+PCA-based dimensionality reduction for spectral visualization
+Spectral loss analysis: how much spectral information is lost after compression
+
 hyperspectral-image-analysis/
 ├── src/
 │   ├── autoencoder.py        # CNN autoencoder architecture (PyTorch)
